@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    position: fixed;;
+    width: 100%;
+    left: 0;
+    top: 0;
+    background-color: rgb(0, 255, 255);
+    z-index: 100;
+}
+.carousel-item{
+    height: 100vh;
+}
+.pading{
+    padding-top: 6%;
+    padding-left: 4%;
+}
+.table{
+    padding: 50px;
+}
+table thead tr{
+    background-color: wheat;
+}
+.bg-primary th{
+    padding: 10px;
+}
+.bg-secondary td{
+    padding: 10px;
+}
+.cards{
+    display: grid;
+    padding-top: 10%;
+    grid-template-columns: repeat(3, 1fr) ;
+    gap: 15px;
+}
+h2{
+    padding-top: 5%;
+}
+.card img{
+    height: 30%;
+}
+.full{
+    display: flex;
+}
+h4{
+    padding-left: 5%;
+}
+.card-title{
+    padding-top: 15px;
+}
+h6{
+    padding-left: 10% ;
+    padding-top: 5px;
+    background-color: wheat;
+}
+.new{
+border: 1px solid gray;
+border-style: dashed;
+border-radius: 5px;
+background-color: rgb(255, 242, 218);
+height: 11vh;
+font-size: 13px;
+width: 50vh;
+}
+.news{
+    padding-left: 25px;
+   display: flex;
+   flex-direction: column;
+   gap: 8px;  
+}
+.new p{
+  padding-left: 3px;
+  padding-bottom: 2px;
+  padding-right: 3px;
+}
+.contact{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+.contact-1{
+       display: flex;
+    list-style: none;
+    justify-content: space-between;
+    width: 60vh;
+}
+.now{
+    display: flex;
+ flex-direction: column;
+}
+.non{
+       display: flex;
+ flex-direction: column; 
+ margin-left: auto;
+}
+.svg{
+    display:flex;
+    font-size:85px;
+    justify-content: space-between;
+    background-color: rgb(108, 108, 177);
+}
+.icons{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
